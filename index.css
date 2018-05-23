@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 1100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("img/bg.jpg");
+    background-size: 100% 100%;
+}
+.btn{
+    height: 140px;
+    width: 170px;
+    position: absolute;
+    left: 60px;
+    background: url("img/10.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.btn1{
+     height: 140px;
+     width: 170px;
+     position: absolute;
+     left: 60px;
+     top: 140px;
+     background: url("img/5.png");
+     background-size: 100% 100%;
+     cursor: pointer;
+ }
+
+.btn2{
+    height: 140px;
+    width: 170px;
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    background: url("img/15.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+/*10 * 10*/
+.box{
+    height: 500px;
+    width: 500px;
+    transform: perspective(800px) rotateX(40deg);
+    margin: 80px auto;
+    border-top: 1px solid #B25F27;
+    border-left: 1px solid #B25F27;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    display: none;
+    /*overflow: hidden;*/
+}
+
+/*5 * 5*/
+.box1{
+    height: 250px;
+    width: 250px;
+    transform: perspective(800px) rotateX(40deg);
+    margin: 380px auto;
+    border-top: 1px solid #B25F27;
+    border-left: 1px solid #B25F27;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    display: none;
+    /*overflow: hidden;*/
+}
+
+/*15 * 15*/
+.box2{
+    height: 750px;
+    width: 750px;
+    transform: perspective(800px) rotateX(40deg);
+    margin: 80px auto;
+    border-top: 1px solid #B25F27;
+    border-left: 1px solid #B25F27;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    display: none;
+    /*overflow: hidden;*/
+}
+.flagBox{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    margin-left: -100px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    display: none;
+}
+.alertBox{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+.alertImg{
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    /*display: none;*/
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url("img/closeBtn.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.close1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url("img/closeBtn.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.close2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url("img/closeBtn.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.block{
+    width: 49px;
+    height: 49px;
+    border-right: 1px solid #B25F27;
+    border-bottom: 1px solid #B25F27;
+    box-shadow: 0 0 4px #333 inset;
+    background-image: url("img/cao.jpg");
+    float: left;
+}
+
+.show{
+    background-image: url("img/dilei.jpg");
+    background-size: 100% 100%;
+}
+
+.num{
+    background: #ECD0A1;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 49px;
+    text-align: center;
+}
+
+.flag{
+    background-image: url("img/hongqi.jpg");
+    background-size: 100% 100%;
+}
+
+.music{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
